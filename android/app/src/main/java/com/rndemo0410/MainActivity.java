@@ -1,4 +1,4 @@
-package com.reactnativeweb0222;
+package com.rndemo0410;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "ReactNativeWeb0222";
+        return "RnDemo0410";
     }
 }
