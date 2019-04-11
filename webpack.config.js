@@ -1,6 +1,9 @@
 const path = require('path')
 const webpack = require('webpack')
 
+const appDirectory = path.resolve(__dirname)
+const modulesDirectory = path.resolve(__dirname, 'node_modules')
+
 module.exports = {
     entry: {
         main: './index.js',
