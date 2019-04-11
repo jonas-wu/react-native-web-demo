@@ -81,10 +81,22 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./index.js":
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_native__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-native */ \"./node_modules/react-native-web/dist/index.js\");\n/* harmony import */ var _src_App__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/App */ \"./src/App.js\");\n/* harmony import */ var _src_App__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_src_App__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _src_app_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/app.json */ \"./src/app.json\");\nvar _src_app_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./src/app.json */ \"./src/app.json\", 1);\n/**\n * @format\n */\n\n\n\n\n\nreact_native__WEBPACK_IMPORTED_MODULE_0__[\"AppRegistry\"].registerComponent(_src_app_json__WEBPACK_IMPORTED_MODULE_2__[\"name\"], () => _src_App__WEBPACK_IMPORTED_MODULE_1___default.a);\nreact_native__WEBPACK_IMPORTED_MODULE_0__[\"AppRegistry\"].runApplication(_src_app_json__WEBPACK_IMPORTED_MODULE_2__[\"name\"], {rootTag: document.getElementById('root')})\n\n\n//# sourceURL=webpack:///./index.js?");
+
+/***/ }),
 
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
@@ -5216,17 +5228,6 @@ eval("var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/
 /***/ (function(module) {
 
 eval("module.exports = {\"name\":\"RnDemo0410\",\"displayName\":\"RnDemo0410\"};\n\n//# sourceURL=webpack:///./src/app.json?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");var _reactNative=__webpack_require__(/*! react-native */ \"./node_modules/react-native-web/dist/index.js\");var _App=_interopRequireDefault(__webpack_require__(/*! ./App */ \"./src/App.js\"));var _app=__webpack_require__(/*! ./app.json */ \"./src/app.json\");_reactNative.AppRegistry.registerComponent(_app.name,function(){return _App.default;});_reactNative.AppRegistry.runApplication(_app.name,{rootTag:document.getElementById('root')});\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

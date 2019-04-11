@@ -6,7 +6,7 @@ const modulesDirectory = path.resolve(__dirname, 'node_modules')
 
 module.exports = {
   entry: {
-    main: './src/index.js',
+    main: './index.js',
   },
   output: {
     filename: 'bundle.js',
