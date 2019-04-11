@@ -12,8 +12,8 @@ module.exports = {
     module: {
         rules: [
            {
-               test: /\.js?$/,
-               exclude: /node_modules/,
+               test: /\.(js?|ts)$/,
+               include: [path.resolve(__dirname, 'src')],
                loader: 'babel-loader',
                options: {
                    presets: ['module:metro-react-native-babel-preset'],
@@ -24,6 +24,7 @@ module.exports = {
     resolve: {
         alias: {
            'react-native$': 'react-native-web',
-        }
-    }
+        },
+        extensions: ['.web.js', '.js', '.json'],
+    },
 }
