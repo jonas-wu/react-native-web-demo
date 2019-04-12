@@ -30,4 +30,9 @@ module.exports = {
         },
         extensions: ['.web.js', '.js', '.json'],
     },
+    devServer: {
+      contentBase: path.resolve(__dirname, 'dist'),
+      compress: false,
+      port: 8080,
+    }
 }
